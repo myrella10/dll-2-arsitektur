@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Kaggle credentials & environment variables
+kaggle.json
+.env
+.env.*
+
+# Local datasets and raw downloads
+dataset/
+datasets/
+seg_train/
+seg_test/
+seg_pred/
+*.zip
+*.tar.gz
+
+# Model weights and artifacts (keep directory via .gitkeep)
+models/*.keras
+models/*.h5
+checkpoints/
+logs/
+
+# Outputs (allow gitkeep, ignore large auto-generated files)
+outputs/*.png
+outputs/*.csv
+outputs/*.txt
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
+*.swp
